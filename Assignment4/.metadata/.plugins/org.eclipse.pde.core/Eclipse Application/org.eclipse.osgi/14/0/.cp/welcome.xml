@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<welcomePage title="Eclipse-Games" format="wrap">
+
+<intro>The goal of this project is to provide several games as plugins for Eclipse platform.
+Those plugins are well integrated in the IDE environment and provide amusement to the development community.</intro>
+
+<item><b>Which are the games?</b>
+Currently, these are the games included:
+
+- <b>Minesweeper</b>.
+  To start the game choose: <action pluginId="es.org.chemi.games" class="es.org.chemi.games.feature.MinesweeperAction">Games -> Minesweeper</action>.
+  You can check the <topic id="/es.org.chemi.games.minesweeper.help/html/index.html">Help</topic>.
+
+- <b>Minesweeper II</b>.
+  To start the game choose: <action pluginId="es.org.chemi.games" class="es.org.chemi.games.feature.Minesweeper2Action">Games -> Minesweeper II</action>.
+  You can check the <topic id="/es.org.chemi.games.minesweeper2.help/html/index.html">Help</topic>.
+
+- <b>Snake</b>.
+  To start the game choose: <action pluginId="es.org.chemi.games" class="es.org.chemi.games.feature.SnakeAction">Games -> Snake</action>.
+  You can check the <topic id="/es.org.chemi.games.snake.help/html/index.html">Help</topic>.
+
+- <b>Sokoban</b>.
+  To start the game choose: <action pluginId="es.org.chemi.games" class="es.org.chemi.games.feature.SokobanAction">Games -> Sokoban</action>.
+  You can check the <topic id="/es.org.chemi.games.sokoban.help/html/index.html">Help</topic>.
+  
+ Note: If you don't see the Games menu, reset the perspective: <action pluginId="es.org.chemi.games" class="es.org.chemi.games.feature.ResetPerspectiveAction">Window -> Reset Perspective</action>.</item>
+
+<item><b>Learn More</b>
+This is the official site of Eclipse-Games: <topic href="http://eclipse-games.sourceforge.net">http://eclipse-games.sourceforge.net</topic></item>
+
+<item><b>Reporting bugs, comments</b>
+If you experience any bug, please let me know.
+For enhancements and other requests, please contact me at jmordax@terra.es. 
+Please feel free to also send me your comments.
+</item>
+
+</welcomePage>

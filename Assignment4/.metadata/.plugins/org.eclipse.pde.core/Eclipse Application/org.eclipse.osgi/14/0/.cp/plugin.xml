@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension point="org.eclipse.help.toc">
+      <toc file="games_toc.xml" primary="true" />
+   </extension>
+   <extension point="org.eclipse.ui.intro.configExtension">
+      <configExtension content="introContent.xml" configId="org.eclipse.ui.intro.universalConfig" />
+   </extension>
+</plugin>

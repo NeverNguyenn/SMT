@@ -1,0 +1,49 @@
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.psnbtech.Tetris;
+import org.psnbtech.TileType;
+import org.psnbtech.BoardPanel;
+
+public class BoardPanelTest {
+	private Tetris tetris;
+	private BoardPanel boardPanel;
+
+	@Before
+	public void setUp() throws Exception {
+		tetris = new Tetris();
+		boardPanel = new BoardPanel(tetris);
+		tetris.startGame();
+	}
+
+	@After
+	public void tearDown() throws Exception {
+		tetris = null;
+		boardPanel = null;
+	}
+
+	@Test
+	public void testIsValidAndEmpty() {
+		//tetris.startGame();
+		assertTrue(tetris.board.isValidAndEmpty(tetris.currentType, tetris.currentCol-1, tetris.currentRow, tetris.currentRotation));
+		assertTrue(tetris.board.isValidAndEmpty(tetris.currentType, tetris.currentCol+1, tetris.currentRow, tetris.currentRotation));
+		assertTrue(tetris.board.isValidAndEmpty(tetris.currentType, tetris.currentCol, tetris.currentRow+1, tetris.currentRotation));
+		assertTrue(tetris.board.isValidAndEmpty(tetris.currentType, tetris.currentCol, tetris.currentRow, tetris.currentRotation));
+		//fail("Not yet implemented");
+	}
+
+	@Test
+	public void testAddPiece() {
+	////	fail("Not yet implemented");
+	}
+
+	@Test
+	public void testCheckLines() {
+		//tetris.startGame();
+		assertTrue(tetris.board.checkLines()<=4);
+	//	fail("Not yet implemented");
+	}
+
+}

@@ -1,0 +1,8 @@
+package edu.umkc.sc9v9.tetris;
+import java.util.Random;
+
+public interface IKeyEvent {
+	public random getRandom();
+	
+
+}

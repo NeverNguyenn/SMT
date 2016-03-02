@@ -1,0 +1,31 @@
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.psnbtech.Tetris;
+
+public class TetrisTest {
+
+	private Tetris tetris;
+	@Before
+	public void setUp() throws Exception {
+		tetris = new Tetris();
+	}
+
+	@After
+	public void tearDown() throws Exception {
+		tetris = null;
+	}
+
+	@Test
+	public void testUpdateGame() {
+		tetris.startGame();
+		int i = tetris.updateGame();
+		System.out.println(i);
+		//At any time, the no. of rows cleared should be less than or equal to 4
+		assertTrue("Cleared rows is <= 4", i<=4);
+		//fail("Not yet implemented");
+	}
+
+}

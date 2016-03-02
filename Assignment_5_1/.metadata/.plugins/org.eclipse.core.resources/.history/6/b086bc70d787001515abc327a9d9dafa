@@ -1,0 +1,74 @@
+package edu.umkc.sc9v9.tetris.sidepanel;
+
+
+import java.awt.Graphics;
+
+import edu.uci.isr.myx.fw.AbstractMyxSimpleBrick;
+import edu.uci.isr.myx.fw.IMyxName;
+import edu.uci.isr.myx.fw.MyxUtils;
+
+import edu.umkc.sc9v9.tetris.ISidePanel;
+import edu.umkc.sc9v9.tetris.tetris.TileType;
+
+public class SidePanelArch extends AbstractMyxSimpleBrick implements ISidePanel
+{
+    public static final IMyxName msg_ISidePanel = MyxUtils.createName("edu.umkc.sc9v9.tetris.ISidePanel");
+
+
+	private ISidePanelImp _imp;
+
+    public SidePanelArch (){
+		_imp = getImplementation();
+		if (_imp != null){
+			_imp.setArch(this);
+		} else {
+			System.exit(1);
+		}
+	}
+    
+    protected ISidePanelImp getImplementation(){
+        try{
+			return new SidePanelImp();    
+        } catch (Exception e){
+            System.err.println(e.getMessage());
+            return null;
+        }
+    }
+
+    public void init(){
+        _imp.init();
+    }
+    
+    public void begin(){
+        _imp.begin();
+    }
+    
+    public void end(){
+        _imp.end();
+    }
+    
+    public void destroy(){
+        _imp.destroy();
+    }
+    
+	public Object getServiceObject(IMyxName arg0) {
+		if (arg0.equals(msg_ISidePanel)){
+			return this;
+		}        
+		return null;
+	}
+
+	@Override
+	public void paintComponent(Graphics g) {
+		// TODO Auto-generated method stub
+		_imp.paintComponent(g);
+	}
+
+	@Override
+	public void drawTile(TileType type, int x, int y, Graphics g) {
+		// TODO Auto-generated method stub
+		_imp.drawTile(type, x, y, g);
+	}
+  
+    
+}

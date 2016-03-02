@@ -1,0 +1,22 @@
+git config user.name "JasonStatham"
+git config user.email "JasonStatham@umkc.edu"
+git config --list
+
+git add -A
+git commit -m "Initial import for Jason Statham"
+git status
+git remote add origin /c/Users/meets/Assignment9/RemoteRep.git/
+
+git clone file:///c/Users/meets/Assignment9/RemoteRep.git JasonStatham
+git checkout -b dev_js
+vi Clock.java
+git add Clock.java
+git commit -m "Changed from private to public in Clock.java by Jason Statham"
+git push origin dev_js
+git checkout master
+git merge dev_js
+git fetch origin
+git branch -avv
+git checkout -b dev_jd origin/dev_js
+git fetch origin
+git branch --track dev_ew origin/dev_js

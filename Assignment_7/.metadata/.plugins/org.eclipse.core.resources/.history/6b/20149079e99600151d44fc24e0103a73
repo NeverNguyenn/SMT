@@ -1,0 +1,33 @@
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.psnbtech.Tetris;
+import java.awt.BorderLayout;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
+
+public class TetrisTest {
+
+	private Tetris tetris;
+	@Before
+	public void setUp() throws Exception {
+		tetris = new Tetris();
+	}
+
+	@After
+	public void tearDown() throws Exception {
+		tetris = null;
+	}
+
+	@Test
+	public void testUpdateGame() {
+		tetris.startGame();
+		//At any time, the no. of rows cleared should be less than or equal to 4
+		assertFalse(tetris.updateGame()<=4);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		//fail("Not yet implemented");
+	}
+
+}

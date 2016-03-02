@@ -1,0 +1,19 @@
+git config user.name "Emma Watson"
+git config user.email "EmmaWatson@umkc.edu"
+git config --list
+
+git add -A
+git commit -m "Initial import for Emma Watson"
+git status
+git remote add origin /c/Users/meets/Assignment9/RemoteRep.git/
+
+vi Tetris.java
+git add Tetris.java
+git commit -m "Edited the Tetris.java at 9 - Emma"
+git push origin master
+You may want to first integrate the remote changes
+git pull origin master
+vi Tetris.java
+git add Tetris.java
+git commit -m "Merged Tetris.java with Emma's changes"
+git log

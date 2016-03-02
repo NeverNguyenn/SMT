@@ -1,0 +1,816 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
+{ ISubsystem 
+	- _id = GUID cfdd7680-e835-415b-8d25-7ff70442a399;
+	- _myState = 8192;
+	- _name = "Default";
+	- _objectCreation = "462023615920151528340946";
+	- _umlDependencyID = "2304";
+	- _lastID = 22;
+	- Declaratives = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IStereotype 
+			- _id = GUID 62c6849a-8d4f-4ab7-b3a4-ba65c7a03d9c;
+			- _myState = 8192;
+			- _name = "extends";
+			- _objectCreation = "462023815920151528338946";
+			- _umlDependencyID = "2367";
+			- _m2Classes = { IRPYRawContainer 
+				- size = 1;
+				- value = "AssociationEnd"; 
+			}
+		}
+	}
+	- weakCGTime = 9.15.2015::20:5:0;
+	- strongCGTime = 9.8.2015::19:45:52;
+	- _defaultComposite = GUID d17d4494-c9fe-41d3-bb2c-82e3ae3371a2;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID d17d4494-c9fe-41d3-bb2c-82e3ae3371a2;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _objectCreation = "462024015920151528336946";
+			- _umlDependencyID = "2406";
+			- weakCGTime = 9.8.2015::20:14:57;
+			- strongCGTime = 9.8.2015::19:45:52;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- UseCases = { IRPYRawContainer 
+		- size = 10;
+		- value = 
+		{ IUseCase 
+			- _id = GUID bf793da3-69ff-40fb-8835-02d2e29848a5;
+			- _myState = 8192;
+			- _name = "Open Account";
+			- _objectCreation = "462024215920151528334946";
+			- _umlDependencyID = "2714";
+			- weakCGTime = 12.31.1969::18:0:0;
+			- strongCGTime = 12.31.1969::18:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 8095b2aa-7b1d-4e93-ae96-b6082198911d;
+					- _myState = 10240;
+					- _name = "itsCustomer";
+					- _objectCreation = "462024415920151528332946";
+					- _umlDependencyID = "2781";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 5a2bc31c-595d-4188-9436-3435699b7b1b;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID b3ba4947-5059-44ac-8ade-7c6853614864;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+			- UseCaseStereoTypes = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID f1486fe0-4ec0-4f4c-b456-0c6e749650dd;
+			- _myState = 8192;
+			- _name = "Print Account Statement";
+			- _objectCreation = "462024615920151528330946";
+			- _umlDependencyID = "3786";
+			- weakCGTime = 12.31.1969::18:0:0;
+			- strongCGTime = 12.31.1969::18:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID df806ee5-a36d-46fc-b73e-c7a82b1c000a;
+					- _myState = 10240;
+					- _name = "itsCustomer";
+					- _objectCreation = "462024815920151528328946";
+					- _umlDependencyID = "2790";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 5a2bc31c-595d-4188-9436-3435699b7b1b;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 80a0171e-191d-4b0a-9f22-9f86af00cb88;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+			- UseCaseStereoTypes = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID 7366196d-dfa1-463a-8387-a09f30b021c5;
+			- _myState = 8192;
+			- _name = "Initiate Transaction";
+			- _objectCreation = "462025015920151528326946";
+			- _umlDependencyID = "3576";
+			- weakCGTime = 12.31.1969::18:0:0;
+			- strongCGTime = 12.31.1969::18:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 5b736cd4-bd25-45f3-a3cf-e7fe4217a67a;
+					- _myState = 10240;
+					- _name = "itsCustomer";
+					- _objectCreation = "462025215920151528324946";
+					- _umlDependencyID = "2781";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 5a2bc31c-595d-4188-9436-3435699b7b1b;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID dc5d9c56-75a1-4bd1-80d5-44e30ab55649;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+			- UseCaseStereoTypes = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID 2b0c8d1e-89d2-43c2-a892-0a5d633d8cbc;
+			- _myState = 8192;
+			- _name = "Check Balance";
+			- _objectCreation = "462025415920151528322946";
+			- _umlDependencyID = "2751";
+			- weakCGTime = 12.31.1969::18:0:0;
+			- strongCGTime = 12.31.1969::18:0:0;
+			- Inheritances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IGeneralization 
+					- _id = GUID 9527ba5c-b52a-4510-83fe-ab28a2bcb91f;
+					- _objectCreation = "462025615920151528320946";
+					- _umlDependencyID = "1595";
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID bf793da3-69ff-40fb-8835-02d2e29848a5;
+					}
+					- _inheritanceType = iPublic;
+					- _isVirtual = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 639911e1-64b6-4238-b370-6952bbd5afe9;
+					- _myState = 10240;
+					- _name = "itsCustomer_1";
+					- _objectCreation = "462025815920151528318946";
+					- _umlDependencyID = "2934";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 5a2bc31c-595d-4188-9436-3435699b7b1b;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 86b4c040-58a1-48b7-8a36-0fade654d18e;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+			- UseCaseStereoTypes = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID 8f6c73d7-9da2-4b7c-b22a-f6d5e61363f7;
+			- _myState = 8192;
+			- _name = "Request to Close Account";
+			- _objectCreation = "462026015920151528316946";
+			- _umlDependencyID = "3786";
+			- weakCGTime = 12.31.1969::18:0:0;
+			- strongCGTime = 12.31.1969::18:0:0;
+			- Inheritances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IGeneralization 
+					- _id = GUID f0d299bc-25bf-474a-a8ac-4c462a407711;
+					- _objectCreation = "462026215920151528314946";
+					- _umlDependencyID = "1595";
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID bf793da3-69ff-40fb-8835-02d2e29848a5;
+					}
+					- _inheritanceType = iPublic;
+					- _isVirtual = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID f3e45e97-6303-4bf9-ad66-3e5ff72cf007;
+					- _myState = 10240;
+					- _name = "itsCustomer_1";
+					- _objectCreation = "462026415920151528312946";
+					- _umlDependencyID = "2925";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 5a2bc31c-595d-4188-9436-3435699b7b1b;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 2992b768-cca8-4254-8a2e-369bce55bd92;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+			- UseCaseStereoTypes = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID 5d3e1b63-bc18-4f5f-9c9e-cc610ad6edfa;
+			- _myState = 8192;
+			- _name = "transaction failed";
+			- _objectCreation = "462026615920151528310946";
+			- _umlDependencyID = "3398";
+			- weakCGTime = 12.31.1969::18:0:0;
+			- strongCGTime = 12.31.1969::18:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 020c46f0-954d-47a5-835d-3b5f952596b3;
+					- _myState = 10240;
+					- _name = "itsBetween accounts of same Customer";
+					- _objectCreation = "462026815920151528308946";
+					- _umlDependencyID = "5003";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _id = GUID 62c6849a-8d4f-4ab7-b3a4-ba65c7a03d9c;
+						}
+					}
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 55b3b013-e746-4fd9-b43b-978e81966435;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 7c54f572-ea52-405b-8a08-23eb47fc4df6;
+					- _myState = 10240;
+					- _name = "itsBetween two different customers";
+					- _objectCreation = "462027015920151528306946";
+					- _umlDependencyID = "4939";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _id = GUID 62c6849a-8d4f-4ab7-b3a4-ba65c7a03d9c;
+						}
+					}
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID a6278009-a425-43ef-b0c1-74fe7003f6f9;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+			- UseCaseStereoTypes = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID 6647acb8-bafb-4be0-bb60-2b834906ef69;
+			- _myState = 8192;
+			- _name = "Checking Account";
+			- _objectCreation = "462027215920151528304946";
+			- _umlDependencyID = "3108";
+			- weakCGTime = 12.31.1969::18:0:0;
+			- strongCGTime = 12.31.1969::18:0:0;
+			- Inheritances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IGeneralization 
+					- _id = GUID 4e50d473-80de-4034-9641-a0f1d15b7a36;
+					- _objectCreation = "462027415920151528302946";
+					- _umlDependencyID = "1595";
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID bf793da3-69ff-40fb-8835-02d2e29848a5;
+					}
+					- _inheritanceType = iPublic;
+					- _isVirtual = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID e249e747-643d-47bc-a346-7c379cfe1c76;
+					- _myState = 10240;
+					- _name = "itsSystem Admin";
+					- _objectCreation = "462027615920151528300946";
+					- _umlDependencyID = "3065";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID d74cba25-08d1-4950-8385-463de076b841;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 3b734683-e9e6-4893-8e08-87727199537d;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+			- UseCaseStereoTypes = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID 74835304-6488-4900-bf09-d4cf307b8c1b;
+			- _myState = 8192;
+			- _name = "Saving Account";
+			- _objectCreation = "462027815920151528298946";
+			- _umlDependencyID = "2946";
+			- weakCGTime = 12.31.1969::18:0:0;
+			- strongCGTime = 12.31.1969::18:0:0;
+			- Inheritances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IGeneralization 
+					- _id = GUID 2b3d8851-c16b-4315-a3b7-169dcb833871;
+					- _objectCreation = "462028015920151528296946";
+					- _umlDependencyID = "1604";
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID bf793da3-69ff-40fb-8835-02d2e29848a5;
+					}
+					- _inheritanceType = iPublic;
+					- _isVirtual = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 8b081e3a-ff0d-46c9-974f-c04d703534a5;
+					- _myState = 10240;
+					- _name = "itsSystem Admin";
+					- _objectCreation = "462028215920151528294946";
+					- _umlDependencyID = "3074";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID d74cba25-08d1-4950-8385-463de076b841;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID e56a45fd-2d34-4bf6-87df-9439bd3c1566;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+			- UseCaseStereoTypes = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID 55b3b013-e746-4fd9-b43b-978e81966435;
+			- _myState = 8192;
+			- _name = "Between accounts of same Customer";
+			- _objectCreation = "462028415920151528292946";
+			- _umlDependencyID = "4667";
+			- weakCGTime = 12.31.1969::18:0:0;
+			- strongCGTime = 12.31.1969::18:0:0;
+			- Inheritances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IGeneralization 
+					- _id = GUID 55a57b51-46c3-41cb-8bf9-36389432eae2;
+					- _objectCreation = "462028615920151528290946";
+					- _umlDependencyID = "1604";
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 7366196d-dfa1-463a-8387-a09f30b021c5;
+					}
+					- _inheritanceType = iPublic;
+					- _isVirtual = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID bb34b970-63ce-40e0-9caa-b54c3d3d126e;
+					- _myState = 10240;
+					- _name = "itsSystem Admin";
+					- _objectCreation = "462028815920151528288946";
+					- _umlDependencyID = "3083";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID d74cba25-08d1-4950-8385-463de076b841;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID e95ac0f7-3dca-4dec-9024-9bb886f59b4e;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+			- UseCaseStereoTypes = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID a6278009-a425-43ef-b0c1-74fe7003f6f9;
+			- _myState = 8192;
+			- _name = "Between two different customers";
+			- _objectCreation = "462029015920151528286946";
+			- _umlDependencyID = "4612";
+			- weakCGTime = 12.31.1969::18:0:0;
+			- strongCGTime = 12.31.1969::18:0:0;
+			- Inheritances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IGeneralization 
+					- _id = GUID d2bd6771-cf3b-42be-aae4-101e1912ba8d;
+					- _objectCreation = "462029215920151528284946";
+					- _umlDependencyID = "1604";
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 7366196d-dfa1-463a-8387-a09f30b021c5;
+					}
+					- _inheritanceType = iPublic;
+					- _isVirtual = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID b6aa11ef-dad8-4185-bee2-a2dc3bb2ec8f;
+					- _myState = 10240;
+					- _name = "itsSystem Admin";
+					- _objectCreation = "462029415920151528282946";
+					- _umlDependencyID = "3074";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID d74cba25-08d1-4950-8385-463de076b841;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID f12337c1-b1bb-4e7b-9e97-79c76d447815;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+			- UseCaseStereoTypes = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+	}
+	- Actors = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ IActor 
+			- _id = GUID 5a2bc31c-595d-4188-9436-3435699b7b1b;
+			- _myState = 8192;
+			- _name = "Customer";
+			- _objectCreation = "462029615920151528280946";
+			- _umlDependencyID = "2454";
+			- weakCGTime = 9.15.2015::20:2:11;
+			- strongCGTime = 9.15.2015::19:55:18;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 5;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID b3ba4947-5059-44ac-8ade-7c6853614864;
+					- _myState = 10240;
+					- _name = "itsOpen Account";
+					- _objectCreation = "462029815920151528278946";
+					- _umlDependencyID = "3068";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID bf793da3-69ff-40fb-8835-02d2e29848a5;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 8095b2aa-7b1d-4e93-ae96-b6082198911d;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 86b4c040-58a1-48b7-8a36-0fade654d18e;
+					- _myState = 10240;
+					- _name = "itsCheck Balance";
+					- _objectCreation = "462030015920151528276946";
+					- _umlDependencyID = "3087";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 2b0c8d1e-89d2-43c2-a892-0a5d633d8cbc;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 639911e1-64b6-4238-b370-6952bbd5afe9;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 80a0171e-191d-4b0a-9f22-9f86af00cb88;
+					- _myState = 10240;
+					- _name = "itsPrint Account Statement";
+					- _objectCreation = "462030215920151528274946";
+					- _umlDependencyID = "4122";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID f1486fe0-4ec0-4f4c-b456-0c6e749650dd;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID df806ee5-a36d-46fc-b73e-c7a82b1c000a;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID dc5d9c56-75a1-4bd1-80d5-44e30ab55649;
+					- _myState = 10240;
+					- _name = "itsInitiate Transaction";
+					- _objectCreation = "462030415920151528272946";
+					- _umlDependencyID = "3912";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 7366196d-dfa1-463a-8387-a09f30b021c5;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 5b736cd4-bd25-45f3-a3cf-e7fe4217a67a;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 2992b768-cca8-4254-8a2e-369bce55bd92;
+					- _myState = 10240;
+					- _name = "itsRequest to Close Account";
+					- _objectCreation = "462030615920151528270946";
+					- _umlDependencyID = "4122";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 8f6c73d7-9da2-4b7c-b22a-f6d5e61363f7;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID f3e45e97-6303-4bf9-ad66-3e5ff72cf007;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IActor 
+			- _id = GUID d74cba25-08d1-4950-8385-463de076b841;
+			- _myState = 8192;
+			- _name = "System Admin";
+			- _objectCreation = "462030815920151528268946";
+			- _umlDependencyID = "2738";
+			- weakCGTime = 9.15.2015::20:6:5;
+			- strongCGTime = 9.15.2015::19:57:50;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 4;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 3b734683-e9e6-4893-8e08-87727199537d;
+					- _myState = 10240;
+					- _name = "itsChecking Account";
+					- _objectCreation = "462031015920151528266946";
+					- _umlDependencyID = "3444";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 6647acb8-bafb-4be0-bb60-2b834906ef69;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID e249e747-643d-47bc-a346-7c379cfe1c76;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID e56a45fd-2d34-4bf6-87df-9439bd3c1566;
+					- _myState = 10240;
+					- _name = "itsSaving Account";
+					- _objectCreation = "462031215920151528264946";
+					- _umlDependencyID = "3264";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 74835304-6488-4900-bf09-d4cf307b8c1b;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 8b081e3a-ff0d-46c9-974f-c04d703534a5;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID e95ac0f7-3dca-4dec-9024-9bb886f59b4e;
+					- _myState = 10240;
+					- _name = "itsBetween accounts of same Customer";
+					- _objectCreation = "462031415920151528262946";
+					- _umlDependencyID = "4994";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 55b3b013-e746-4fd9-b43b-978e81966435;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID bb34b970-63ce-40e0-9caa-b54c3d3d126e;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID f12337c1-b1bb-4e7b-9e97-79c76d447815;
+					- _myState = 10240;
+					- _name = "itsBetween two different customers";
+					- _objectCreation = "462031615920151528260946";
+					- _umlDependencyID = "4939";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID a6278009-a425-43ef-b0c1-74fe7003f6f9;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID b6aa11ef-dad8-4185-bee2-a2dc3bb2ec8f;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 9.8.2015::20:14:57;
+}
+

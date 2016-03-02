@@ -1,0 +1,15 @@
+git config user.name "Johnny Depp"
+git config user.email "JohnnyDepp@umkc.edu"
+git config --list
+
+git add -A
+git commit -m "Initial import for Johnny Depp"
+git status
+git remote add origin /c/Users/meets/Assignment9/RemoteRep.git/
+
+git push origin master
+git log
+git add TileType.java
+git reset TileType.java
+git branch -d dev_jd
+git push origin --delete dev_js

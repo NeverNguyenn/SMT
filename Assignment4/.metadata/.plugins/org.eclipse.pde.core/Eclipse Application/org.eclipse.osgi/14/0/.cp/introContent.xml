@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<introContent>
+  	<extensionContent id="eclipse-games-introExtension" style="css/style.css" name="Eclipse-games Extension" path="overview/@">
+		<group id="eclipse-games-introLink-group" style-id="content-group">
+       		<link id="eclipse-games-introLink" style-id="content-link" label="Eclipse-Games" url="http://org.eclipse.ui.intro/showPage?id=eclipse-games-page">
+          		<text>
+          			Learn how to enjoy Eclipse platform from a different point of view.
+				</text>
+       		</link>
+       	</group>
+  	</extensionContent>
+  	
+  	<page id="eclipse-games-page" style="$theme$/html/overview.css,css/style.css" style-id="page">
+		<title style-id="intro-header">Eclipse-Games</title> 
+		<include path="overview/navigation-links" />
+		<group id="page-content">
+            <group id="content-header" label="Eclipse-Games" filteredFrom="swt" />
+			<text id="page-description" style-id="page-description">
+				Welcome to Eclipse-Games!&lt;br/&gt;&lt;br/&gt;
+				The goal of this feature is to provide several games as plugins for Eclipse platform.&lt;br/&gt;
+				Those plugins are well integrated in the IDE environment and provide amusement to the development community.&lt;br/&gt;&lt;br/&gt;
+				Currently, these are the games included:
+			</text>
+ 			<group id="left" style-id="content-group">
+	 			<link id="minesweeper-introLink" style-id="content-link" label="Minesweeper" url="http://org.eclipse.ui.intro/showHelpTopic?id=/es.org.chemi.games.minesweeper.help/html/index.html">
+        	  		<text>
+          				The objective of Minesweeper is to locate all the mines as quickly as possible without uncovering any of them.
+          				If you uncover a mine, you lose the game.
+					</text>
+       			</link>
+       			<link id="minesweeper2-introLink" style-id="content-link" label="Minesweeper 2" url="http://org.eclipse.ui.intro/showHelpTopic?id=/es.org.chemi.games.minesweeper2.help/html/index.html">
+        	  		<text>
+						The objective of Minesweeper II is to cross the mines field as quickly as possible without uncovering any of them.
+						If you uncover a mine, you lose the game.
+					</text>
+       			</link>
+ 				 <link id="snake-introLink" style-id="content-link" label="Snake" url="http://org.eclipse.ui.intro/showHelpTopic?id=/es.org.chemi.games.snake.help/html/index.html">
+        	  		<text>
+          				The objective of Snake is eat, eat and eat. And convert the worm into a big python.
+          				But be carefull, you can't touch mines, walls or the snake itself.
+					</text>
+       			</link> 			
+				 <link id="sokoban-introLink" style-id="content-link" label="Sokoban" url="http://org.eclipse.ui.intro/showHelpTopic?id=/es.org.chemi.games.sokoban.help/html/index.html">
+        	  		<text>
+          				You are the warehouse keeper and you have to push the boxes to their correct positions in the warehouse.
+					</text>
+       			</link>
+ 			</group>
+		</group>
+	</page>  	
+</introContent>

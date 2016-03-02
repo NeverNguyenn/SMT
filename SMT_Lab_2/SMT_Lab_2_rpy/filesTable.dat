@@ -1,0 +1,14 @@
+I-Logix-RPY-Archive version 8.10.0 * 6930133
+
+- filesTable = { IRPYRawContainer 
+	- size = 7;
+	- value = "SMT_Lab_2.rpy" ""
+	"SMT_Lab_2_rpy\\BankAccounts.sbs" "BankAccounts"
+	"SMT_Lab_2_rpy\\Default.sbs" "Default"
+	"SMT_Lab_2_rpy\\DefaultComponent.cmp" "DefaultComponent"
+	"SMT_Lab_2_rpy\\Pre76GESkin.sbs" "Pre76GESkin"
+	"SMT_Lab_2_rpy\\Transactions.sbs" "Transactions"
+	"SMT_Lab_2_rpy\\Users.sbs" "Users"
+	
+}
+

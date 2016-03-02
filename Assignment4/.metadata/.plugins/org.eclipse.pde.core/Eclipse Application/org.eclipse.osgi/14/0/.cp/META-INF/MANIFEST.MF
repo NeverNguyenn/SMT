@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Export-Package: es.org.chemi.games.util
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.4
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.he
+ lp,org.eclipse.ui.intro,org.eclipse.ui.intro.universal
+Bundle-Vendor: %pluginVendor
+Eclipse-LazyStart: true
+Bundle-Version: 3.3.0.201005251612
+Bundle-ManifestVersion: 2
+Bundle-Activator: es.org.chemi.games.GamesPlugin
+Bundle-SymbolicName: es.org.chemi.games;singleton:=true
+
+

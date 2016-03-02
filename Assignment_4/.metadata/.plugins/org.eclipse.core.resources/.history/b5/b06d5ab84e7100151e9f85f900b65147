@@ -1,0 +1,11 @@
+package edu.umkc.sc9v9.tetrisext2;
+
+import edu.umkc.sc9v9.tetris.IKeyEvent;
+
+public class KeyEvnt implements IKeyEvent {
+
+	public KeyEvnt() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

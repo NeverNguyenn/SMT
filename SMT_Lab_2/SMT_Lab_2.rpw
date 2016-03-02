@@ -1,0 +1,178 @@
+I-Logix-RPY-Archive version 8.10.0 * 6930133
+{ CGEMdiWorkspace 
+	- stubList = { IRPYRawContainer 
+		- size = 0;
+	}
+	- isLoadOnDemand = 0;
+	- myViewsWithID = { IRPYRawContainer 
+		- size = 5;
+		- value = 
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 2;
+				- m_showCmd = 3;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 150;
+				- m_nTop = 150;
+				- m_nRight = 1292;
+				- m_nBottom = 728;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IStateChartDiagram";
+				- _filename = "BankAccounts.sbs";
+				- _subsystem = "BankAccounts";
+				- _class = "SavingAccount";
+				- _name = "StatechartDiagram";
+				- _id = GUID 84748cfc-482a-460d-8f0d-0eb18badb4b5;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 1168 612 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 0;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 100;
+				- m_nTop = 100;
+				- m_nRight = 1242;
+				- m_nBottom = 678;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IMSC";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "SequenceDiagram";
+				- _id = GUID 28436692-ec3b-4b2f-80ad-b804e9fd02e0;
+			}
+			- _UpLeft = 0 10 ;
+			- _DownRight = 1578 721 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 2;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 75;
+				- m_nTop = 75;
+				- m_nRight = 1217;
+				- m_nBottom = 684;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IUCDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "UseCaseDiagram";
+				- _id = GUID 155fb35c-2b8d-4736-8330-b7c91d33cfa2;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 1106 550 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 3;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 125;
+				- m_nTop = 125;
+				- m_nRight = 1267;
+				- m_nBottom = 703;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IStateChartDiagram";
+				- _filename = "Users.sbs";
+				- _subsystem = "Users";
+				- _class = "Customer";
+				- _name = "StatechartDiagram";
+				- _id = GUID 4ec5905e-d29e-49f7-b224-693ab1ebcbb3;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 1106 519 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 1;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 100;
+				- m_nTop = 100;
+				- m_nRight = 444;
+				- m_nBottom = 662;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "classDiagram";
+				- _id = GUID a81bbf22-4caf-4702-b087-a87de5a94009;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 421 689 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 4;
+		}
+	}
+	- _fullName = "D:\\UMKC\\Docs\\Subjects\\5555 SMT\\SMT_Lab_2\\SMT_Lab_2";
+	- m_SearchScopeList = { IRPYRawContainer 
+		- size = 0;
+	}
+	- bUsingCustomBrowserView = 0;
+	- bUsingQueries = 0;
+	- bApplyOnDiagrams = 0;
+	- liQueryIDs = { IRPYRawContainer 
+		- size = 0;
+	}
+	- liElementTypes = { IRPYRawContainer 
+		- size = 0;
+	}
+
+	- m_favoritesTree = {
+		count=1;
+		{ - favoritesItem
+			generation = 0;
+			name = Favorites;
+			idOrFolder = folder;
+		}
+	}
+
+	- mapOslcRmActiveCollections = { IRPYRawContainer 
+		- size = 0;
+	}
+}
+

@@ -1,0 +1,7 @@
+package edu.umkc.sc9v9.tetris;
+
+public interface IClock {
+	public void setCyclesPerSecond(float cyclesPerSecond);
+	
+
+}

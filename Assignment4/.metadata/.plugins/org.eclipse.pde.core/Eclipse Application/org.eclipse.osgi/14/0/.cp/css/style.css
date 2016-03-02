@@ -1,0 +1,12 @@
+a#eclipse-games-introLink img { background-image : url(graphics/eclipse-games.gif); }
+a#eclipse-games-introLink:hover img { background-image : url(graphics/eclipse-games_hov.gif); }
+a#minesweeper-introLink img { background-image : url(graphics/minesweeper.gif); }
+a#minesweeper-introLink:hover img { background-image : url(graphics/minesweeper_hov.gif); }
+a#minesweeper2-introLink img { background-image : url(graphics/minesweeper2.gif); }
+a#minesweeper2-introLink:hover img { background-image : url(graphics/minesweeper2_hov.gif); }
+a#snake-introLink img { background-image : url(graphics/snake.gif); }
+a#snake-introLink:hover img { background-image : url(graphics/snake_hov.gif); }
+a#sokoban-introLink img { background-image : url(graphics/sokoban.gif); }
+a#sokoban-introLink:hover img { background-image : url(graphics/sokoban_hov.gif); }
+
+#page-content#left { border: none; float: left; margin: 30px; padding: 0px; width: 49%; clear: left; }

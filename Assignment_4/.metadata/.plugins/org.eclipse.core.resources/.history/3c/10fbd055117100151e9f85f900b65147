@@ -1,0 +1,55 @@
+package edu.umkc.sc9v9.tetrisext1;
+
+import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.Dimension;
+import java.awt.Font;
+
+public class SideInfo {
+	
+	private static final Color DRAW_COLOR = new Color(128, 192, 128);
+	private static final Font LARGE_FONT = new Font("Tahoma", Font.BOLD, 13);
+	
+	public void paintComponent(Graphics g) {
+		super.paintComponent(g);
+		
+		//Set the color for drawing.
+		g.setColor(DRAW_COLOR);
+		
+		/*
+		 * This variable stores the current y coordinate of the string.
+		 * This way we can re-order, add, or remove new strings if necessary
+		 * without needing to change the other strings.
+		 */
+		int offset;
+		
+		/*
+		 * Draw the "Stats" category.
+		 */
+		g.setFont(LARGE_FONT);
+		g.drawString("Stats", SMALL_INSET, offset = STATS_INSET);
+		g.setFont(SMALL_FONT);
+		g.drawString("Level: " + tetris.getLevel(), LARGE_INSET, offset += TEXT_STRIDE);
+		g.drawString("Score: " + tetris.getScore(), LARGE_INSET, offset += TEXT_STRIDE);
+		
+		/*
+		 * Draw the "Controls" category.
+		 */
+		g.setFont(LARGE_FONT);
+		g.drawString("Controls", SMALL_INSET, offset = CONTROLS_INSET);
+		g.setFont(SMALL_FONT);
+		g.drawString("A - Move Left", LARGE_INSET, offset += TEXT_STRIDE);
+		g.drawString("D - Move Right", LARGE_INSET, offset += TEXT_STRIDE);
+		g.drawString("Q - Rotate Anticlockwise", LARGE_INSET, offset += TEXT_STRIDE);
+		g.drawString("E - Rotate Clockwise", LARGE_INSET, offset += TEXT_STRIDE);
+		g.drawString("S - Drop", LARGE_INSET, offset += TEXT_STRIDE);
+		g.drawString("P - Pause Game", LARGE_INSET, offset += TEXT_STRIDE);
+		
+		/*
+		 * Draw the next piece preview box.
+		 */
+		g.setFont(LARGE_FONT);
+		g.drawString("Next Piece:", SMALL_INSET, 70);
+		g.drawRect(SQUARE_CENTER_X - SQUARE_SIZE, SQUARE_CENTER_Y - SQUARE_SIZE, SQUARE_SIZE * 2, SQUARE_SIZE * 2);
+
+}

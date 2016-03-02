@@ -1,0 +1,20 @@
+package edu.umkc.sc9v9.tetrisext2;
+
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
+
+import edu.umkc.sc9v9.tetris.IKeyEvent;
+
+public class KeyEvnt extends KeyAdapter implements IKeyEvent {
+
+	public int keycode;
+	public KeyEvnt() {
+		// TODO Auto-generated constructor stub
+	}
+	public void keyPressed(KeyEvent e) {
+								
+				keycode = e.getKeyCode(); 
+	}
+
+}
+

@@ -1,0 +1,38 @@
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.psnbtech.Tetris;
+import org.psnbtech.BoardPanel;
+
+public class BoardPanelTest {
+	private Tetris tetris;
+	private BoardPanel boardPanel;
+
+	@Before
+	public void setUp() throws Exception {
+		tetris = new Tetris();
+		boardPanel = new BoardPanel();
+	}
+
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	@Test
+	public void testIsValidAndEmpty() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testAddPiece() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testCheckLines() {
+		fail("Not yet implemented");
+	}
+
+}

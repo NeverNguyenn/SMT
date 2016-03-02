@@ -1,0 +1,47 @@
+package edu.umkc.sc9v9.tetrisext1;
+
+import edu.umkc.sc9v9.tetris.IClock;
+
+public class Clock implements IClock {
+
+	public Clock() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void setCyclesPerSecond(float cyclesPerSecond) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void reset() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void update() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void setPaused(boolean paused) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public boolean hasElapsedCycle() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean peekElapsedCycle() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}
